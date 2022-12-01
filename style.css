@@ -1,0 +1,77 @@
+#greet {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(211, 43, 57);
+    
+}
+
+
+
+
+.container {
+    max-width: 450px;
+    margin: 0.5vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(138, 87, 87);
+    background-color: rgb(83, 100, 184);
+}
+
+#display {
+    text-align: right;
+    height: 80px;
+    line-height: 80px;
+    padding: 1px 8px;
+    font-size: 25px;
+    background-color: rgb(106, 129, 101);
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 0.5px solid rgb(205, 143, 143);
+    border-left: 1px solid#999;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+    
+}
+
+.button {
+    border: 14px ;
+    margin: 8px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 22px;
+    border-bottom: #999;
+    cursor: pointer;
+    background-color: rgb(151, 214, 241);
+    color: rgb(17, 2, 2);
+    
+}
+
+#equal {
+    background-color: rgb(78, 189, 35);
+    color: white;
+    
+}
+#c{
+color: rgb(2, 16, 4);
+    font-size: 55px;
+    background-color:rgb(132, 38, 38)
+    
+}
+.button:hover {
+    background-color: #64134c;
+    color: rgb(237, 236, 236);
+    transition: 0.5s ease-in-out;
+
+    
+}
+#c:hover {
+    background-color: #113739;
+}
+
+
+
